@@ -13,16 +13,20 @@ from src.benchmarks.scenarios import (
 )
 from src.benchmarks.storage import (
     BenchmarkResults,
+)
+from src.benchmarks.storage import (
     load_benchmark_results as _load_benchmark_results,
+)
+from src.benchmarks.storage import (
     save_benchmark_results as _save_benchmark_results,
 )
+from src.data.datasets import DEFAULT_DATA_PATH, load_datasets
 from src.methods.counting_sort import counting_sort
 from src.methods.hibrid_sort import hybrid_sort
 from src.methods.insertion_sort import insertion_sort
 from src.methods.merge_sort import merge_sort
 from src.methods.quick_sort import quick_sort
 from src.methods.radix_sort import radix_sort
-from src.data.datasets import DEFAULT_DATA_PATH, load_datasets
 from src.utils.input_analysis import (
     is_integer_input,
     is_nearly_sorted,
