@@ -1,5 +1,6 @@
 import random
 
+
 def _insertion_sort_slice(arr, low, high):
     """Ordenação por inserção para subvetores pequenos."""
     for i in range(low + 1, high + 1):
@@ -9,6 +10,7 @@ def _insertion_sort_slice(arr, low, high):
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = key
+
 
 def _hybrid_sort_helper(arr, low, high, threshold=16):
     while low < high:
@@ -37,6 +39,7 @@ def _hybrid_sort_helper(arr, low, high, threshold=16):
             else:
                 _hybrid_sort_helper(arr, p + 1, high, threshold)
                 high = p - 1
+
 
 def hybrid_sort(arr):
     if len(arr) <= 1:

@@ -1,0 +1,37 @@
+{
+  "scenarios": {
+    "aleatorio_chaves_grandes": {
+      "counting_sort": Infinity,
+      "hybrid_sort": 5.489067,
+      "insertion_sort": 174.565419,
+      "merge_sort": 7.687846,
+      "quick_sort": 6.490966,
+      "radix_sort": 14.757009
+    },
+    "faixa_estreita": {
+      "counting_sort": 0.672364,
+      "hybrid_sort": 10.536456,
+      "insertion_sort": 160.405382,
+      "merge_sort": 7.5057,
+      "quick_sort": 1.533327,
+      "radix_sort": 2.733623
+    },
+    "lista_minuscula": {
+      "counting_sort": Infinity,
+      "hybrid_sort": 0.006623,
+      "insertion_sort": 0.006102,
+      "merge_sort": 0.024135,
+      "quick_sort": 0.021782,
+      "radix_sort": 0.122663
+    },
+    "quase_ordenado": {
+      "counting_sort": 0.972774,
+      "hybrid_sort": 3.593032,
+      "insertion_sort": 0.50078,
+      "merge_sort": 5.569931,
+      "quick_sort": 5.232871,
+      "radix_sort": 5.356055
+    }
+  },
+  "version": 1
+}
